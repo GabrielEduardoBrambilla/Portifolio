@@ -1,13 +1,14 @@
 import { AppRoutes } from './routes'
 import GlobalStyles from './styles/global'
-
+import { ToastContainer } from 'react-toastify';
 export function App() {
 
   return (
-    <GlobalStyles>
+    <>
+      <GlobalStyles />
       <AppRoutes />
-    </GlobalStyles>
-
+      <ToastContainer />
+    </>
   )
 }
 

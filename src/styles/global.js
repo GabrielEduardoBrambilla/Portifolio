@@ -13,9 +13,8 @@ html:root{
   }
 
   body{
-      background-color: purple;
+    /* background-color: purple; */
     -webkitfont-smoothing: antialiased
-
   }
 
   body, input, button, textarea, select{

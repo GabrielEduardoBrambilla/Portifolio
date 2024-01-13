@@ -1,14 +1,13 @@
 
 import React from 'react'
-import Union from '../../assets/Union.svg'
-import ant from '../../assets/ant-design_twitter-circle-filled.png'
 import { Container } from './styles'
+import { NavBar } from '../../components/nav'
 
 export function Landing() {
   return (
-    <Container>
-      <img src={Union} alt="" />
-    </Container>
+    <div>
+      <h2>TITUUASEDKAJ</h2>
+      <NavBar />
+    </div>
   )
-
 }
