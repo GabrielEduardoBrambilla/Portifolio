@@ -9,8 +9,10 @@ export const NavBar = () => {
   return (
     <Container>
       <div className="social">
+
+        <img src={github} alt="" />
         <img src={linkedin} alt="" />
-        <h2>Hellow</h2>
+        <img src={instagram} alt="" />
       </div>
     </Container>
   )
