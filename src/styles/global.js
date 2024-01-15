@@ -13,7 +13,6 @@ html:root{
   }
 
   body{
-    
     /* background-color: purple; */
     -webkitfont-smoothing: antialiased
   }
