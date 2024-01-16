@@ -13,34 +13,47 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { EffectFlip, Pagination, Navigation } from 'swiper/modules';
+import { EffectCards } from 'swiper/modules';
 
-export const Carousel = () => {
+export const Carousel2 = (isActive) => {
   return (
     <>
       <Container>
 
         <Swiper
-          slides-per-view={3}
-          spaceBetween={50}
-          effect={'flip'}
+          effect={'cards'}
           grabCursor={true}
           pagination={{
             clickable: true,
           }}
-          modules={[EffectFlip, Pagination, Navigation]}
+          modules={[EffectCards, Pagination, Navigation]}
+          spaceBetween={50}
+          centeredSlides={true}
+          slidesPerView={'auto'}
+
+          onSwiper={(swiper) => console.log(swiper)}
           className="mySwiper"
         >
+
+
+          <SwiperSlide>
+            <Card isActive={true} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card isActive={true} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card isActive={true} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card isActive={true} />
+          </SwiperSlide>
           <SwiperSlide>
             <Card />
           </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card />
-          </SwiperSlide>
+
         </Swiper>
-      </Container>
+      </Container >
     </>
   );
 }

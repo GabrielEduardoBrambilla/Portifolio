@@ -5,13 +5,17 @@ import { NavBar } from '../../components/nav'
 import { Contact } from '../../components/contact'
 import { Hero } from '../../components/hero'
 import { Carousel } from '../../components/carousel'
+import { Carousel2 } from '../../components/carousel 2'
+import { Carousel3 } from '../../components/carousel 3'
+import { BlogSlider } from '../../components/BlogSlider'
+
 
 export function Landing() {
   return (
     <Container>
       <NavBar />
       <Hero />
-      <Carousel />
+      <Carousel2 />
       <Contact />
     </Container>
   )

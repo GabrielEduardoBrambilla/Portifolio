@@ -6,7 +6,7 @@ export const Container = styled.div`
   /* background-color: lightskyblue; */
   font-family: Poppins, sans-serif;
   max-width: 280px;
-
+  filter: ${props => (props.isActive ? 'blur(5px)' : 'none')};
   .content-wrapper {
     padding: 0 16px;
   }

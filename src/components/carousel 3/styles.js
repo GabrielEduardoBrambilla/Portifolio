@@ -21,23 +21,26 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 416px;
+    max-width: 716px;
     flex: 0 0 auto;
     height: 100%;
+    gap: 503px;
   }
 
+  .swiper-slide-shadow {
+    background: transparent;
+  }
   .swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-position: center;
-    background-size: cover;
-    /* background-color: red; */
+    /* margin-right: 100px !important; */
+    background-color: transparent;
     flex: 0 0 auto;
   }
 
   .swiper-slide img {
     display: block;
-    width: 100%;
+    /* width: 100%; */
   }
 `

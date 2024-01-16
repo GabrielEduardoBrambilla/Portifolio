@@ -29,7 +29,7 @@ export const Container = styled.main`
     justify-content: center;
     padding: 0 0 1.6rem 0;
   }
-
+  /* I need the swiper.min.js how can I use it  */
   .introduction {
     font-size: 1.4rem;
     font-style: normal;

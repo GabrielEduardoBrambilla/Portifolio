@@ -3,7 +3,7 @@ import { Container } from './styles'
 import myself from '../../assets/myself.svg'
 import placeholder from '../../assets/card-placeholder.svg'
 
-export const Card = () => {
+export const Card = (isActive) => {
   return (
     <Container>
       <div className="img-wrapper">

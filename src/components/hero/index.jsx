@@ -1,10 +1,12 @@
 import React from 'react'
 import { Container } from './styles'
 import myself from '../../assets/myself.svg'
+import { Card } from '../card'
 
 export const Hero = () => {
   return (
     <Container>
+
       <div className="hero">
 
         <div className="picture-wrapper">
@@ -22,6 +24,7 @@ export const Hero = () => {
       </div>
 
       <p className='resume'>As a software engineer I engineer some software, that are engineered with already engineered softwares, as the software I'm engineering </p>
+
     </Container>
   )
 }
