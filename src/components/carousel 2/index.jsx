@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { Container } from './styles'
+import { Container, Container_wrapper } from './styles'
 import { Card } from '../card'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -17,7 +17,7 @@ import { EffectCards } from 'swiper/modules';
 
 export const Carousel2 = (isActive) => {
   return (
-    <>
+    <Container_wrapper>
       <Container>
 
         <Swiper
@@ -54,6 +54,6 @@ export const Carousel2 = (isActive) => {
 
         </Swiper>
       </Container >
-    </>
+    </Container_wrapper>
   );
 }

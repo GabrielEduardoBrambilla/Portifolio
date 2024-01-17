@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.main`
   max-width: 85rem;
   width: 100%;
+  height: 70vh;
   padding: 0 2rem;
   margin: auto;
   font-family: 'Heebo', sans-serif;

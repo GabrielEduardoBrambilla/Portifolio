@@ -1,19 +1,21 @@
 import styled from 'styled-components'
 
+export const Container_wrapper = styled.div`
+  padding: 32px 0;
+  background: linear-gradient(
+    2deg,
+    #6687fb 1.58%,
+    rgba(102, 135, 251, 0) 94.44%
+  );
+`
 export const Container = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 100%;
   height: 500px;
-  padding: 50px;
   font-family: 'Heebo', sans-serif;
   color: ${({ theme }) => theme.COLORS.DARK};
-  background: linear-gradient(
-    2deg,
-    #6687fb 1.58%,
-    rgba(102, 135, 251, 0) 94.44%
-  );
 
   padding: 0 2rem;
   margin: auto;
@@ -24,6 +26,7 @@ export const Container = styled.div`
     max-width: 716px;
     flex: 0 0 auto;
     height: 100%;
+
     gap: 503px;
   }
 
