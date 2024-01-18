@@ -1,0 +1,23 @@
+import styled from 'styled-components'
+
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: ${({ theme }) => theme.COLORS.WHITE};
+  padding: 32px;
+  gap: 12px;
+  /* height: 182px; */
+
+  .social {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    > img {
+      object-fit: contain;
+      width: 40px;
+      height: 60px;
+    }
+  }
+`
