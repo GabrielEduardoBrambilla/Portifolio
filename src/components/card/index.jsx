@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container } from './styles'
-import myself from '../../assets/myself.svg'
 import placeholder from '../../assets/card-placeholder.svg'
 
 export const Card = (isActive) => {

@@ -29,7 +29,6 @@ export const NavBar = () => {
             <a href="">
               Contact
             </a>
-
           </p>
         </div>
       </div>

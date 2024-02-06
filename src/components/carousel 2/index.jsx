@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { Container, Container_wrapper } from './styles'
 import { Card } from '../card'
 // Import Swiper React components
@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 
 
 // import required modules
-import { EffectFlip, Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation } from 'swiper/modules';
 import { EffectCards } from 'swiper/modules';
 
 export const Carousel2 = (isActive) => {
